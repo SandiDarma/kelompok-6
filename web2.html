@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Kirim Data Form PHP</title>
+</head>
+<body>
+    <center><h1> Input Data </h1></center>
+<form action="output.php" method="post">
+ <center><table></center>
+ <table align="center" border="10" cellpadding="4" cellspacing="5"> 
+  <tr><td>NIM </td><td><input type="text" name="nim"></td></tr>
+  <tr><td>Nama </td><td><input type="text" name="nama"></td></tr>
+  <tr><td>Alamat </td><td><textarea name="alamat" width="300"></textarea></td></tr>
+  <tr><td>Tanggal Lahir</td><td><input type='date' name='tgl_lhr'/></td></tr>  
+  <tr><td>Jenis Kelamin</td>
+   <td>
+    <input type="radio" name="jns_klmin" value="Pria" checked> Pria
+    <input type="radio" name="jns_klmin" value="Wanita"> Wanita
+   </td>
+  </tr>
+  <tr><td>Agama</td>
+   <td>
+    <select name ="faith">
+              <option value="SD">Kristen Prostetan</option>
+                 <option value="SMP">Islam</option>
+                 <option value="SMA">Khatolik</option>
+                 <option value="S1">Budha</option>
+                 <option value="S2">Hindu</option>
+                 <option value="S2">Khongucu</option>
+          </select>
+   </td>
+  </tr>
+  <tr><td><input type="submit" value="Simpan" name="simpan"></td></tr>
+ </table>
+</form>
+</body>
+</html>
