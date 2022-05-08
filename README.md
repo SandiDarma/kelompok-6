@@ -1,0 +1,7 @@
+# kelompok-6
+Tugas KeLompok WP2 : Membuat Form Input/Output Data Siswa
+NAMA KELOMPOK :
+SANDI DARMA (15200350)
+QODRI NURFALAH (15200270)
+RIO ADITYA U (15200336)
+SYAHIR MUIZAL 
